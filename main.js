@@ -1,9 +1,9 @@
-const userName = '';
-const userQuestion = '';
+const userName = 'Warren';
+if (userName) {console.log(`Hello, ${userName}!`)} else {console.log('Hello!')}
+
+const userQuestion = 'Will my hair grow back?';
 const randomNumber = Math.floor(Math.random() * 8);
 var eightBall = '';
-
-if (userName) {console.log(`Hello, ${userName}!`)} else {console.log('Hello!')}
 
 if (userName && userQuestion) {
     console.log(`${userName}'s question: ${userQuestion}.`)
